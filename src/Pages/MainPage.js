@@ -1,0 +1,5 @@
+export {default as Home} from "./Home/Home"
+export {default as Info} from "./Info/Info"
+export {default as Registration} from "./Registration/Registration"
+export {default as SupportTeam} from "./SupportTeam/SupportTeam"
+export {default as CoursSchedule} from "./CoursSchedule/CoursSchedule"

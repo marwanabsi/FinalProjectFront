@@ -1,0 +1,137 @@
+.App {
+  height: 100vh;
+  background-color: white;
+  background-size: 100% 100%;
+}
+
+
+body {
+  margin: 0;
+  padding: 0; 
+}
+
+.Sidebar {
+  height: 100%;
+  width: 250px;
+  background-color: #007500;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+
+}
+
+.TopBar{
+  height: 84px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 2px solid rgb(158, 224, 156);
+
+}
+.ProfileDiv{
+  padding-right: 20px;
+  padding-top: 10px;
+  color:#007500;
+  display: flex;
+    justify-content: flex-end;
+ 
+}
+
+
+.MyImage{
+padding-top: 10%;
+padding-left: 25%;
+width: 115px;
+height: 50px;
+}
+ .imageDiv{
+  height: 84px;
+  border-bottom: 2px solid rgb(158, 224, 156);
+
+} 
+
+.SidebarList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+  padding-top: 20%;
+}
+
+
+.BottomList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0; 
+}
+
+
+.SidebarList .field .a{
+  width: 100%;
+  height: 50px;
+  color: white;
+  border-bottom:  2px solid rgb(158, 224, 156);
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+    
+}
+
+
+
+.SidebarList .field .a:hover {
+  cursor: pointer;
+  background-color: rgb(93, 158, 87);
+
+}
+
+
+
+
+
+
+
+
+
+.BottomList .field .a {
+  width: 100%;
+  height: 50px;
+  color: white;
+  border-bottom:  2px solid rgb(158, 224, 156);
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+
+}
+
+
+
+.BottomList .field .a:hover {
+  cursor: pointer;
+  background-color: rgb(93, 158, 87);
+
+}
+
+
+.field .a #icon {
+  flex: 30%;
+  display: grid;
+  place-items: left;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.field .a #title {
+  flex: 80%;
+  padding-top: 7%;
+  padding-right: 60px;
+}
