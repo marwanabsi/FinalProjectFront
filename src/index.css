@@ -29,12 +29,20 @@ body {
   border-bottom: 2px solid rgb(158, 224, 156);
 
 }
+.AccountCirclePopup {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 20px;
+}
+
 .ProfileDiv{
   padding-right: 20px;
   padding-top: 10px;
-  color:#007500;
   display: flex;
-    justify-content: flex-end;
+  flex-direction: column;
+
+  align-items: end;
+
  
 }
 
@@ -48,14 +56,22 @@ height: 50px;
  .imageDiv{
   height: 84px;
   border-bottom: 2px solid rgb(158, 224, 156);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 } 
+.imageDiv img {
+  height: 4em; 
+  width: 8em; 
+  overflow: hidden;
+}
 
 .SidebarList {
   height: auto;
   padding: 0;
   width: 100%;
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 

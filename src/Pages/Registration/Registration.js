@@ -4,6 +4,9 @@ import '../MainPage.css'
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Sidebar from "../../Components/Sidebar";
+import TopBar from "../../Components/TopBar";
+
+
 const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Saturday'];
 const subjects = ['Java', 'C', 'OS'];
 
@@ -88,6 +91,7 @@ const Registration = () => {
    // <div><h2>New Semester Schedule </h2> </div>
     <div >
       <Sidebar/>
+      <TopBar/>
       <h2 className='NewSemesterSchedule'>New Semester Schedule </h2>
       <div>
       <form className="Registration"onSubmit={handleSubmit}>

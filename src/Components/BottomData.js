@@ -8,12 +8,12 @@ export const BottomData = [
      {
         title: "Support Team",
         icon: <BuildIcon />,
-        link: "/SupportTeam",
+        link: "/supportTeam",
     }
     , {
         title: "Info",
         icon: <InfoIcon />,
-        link: "/Info",
+        link: "/info",
     },
 
 ];

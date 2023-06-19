@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom';
 import "../App.css";
 import { SidebarData } from "./SidebarData";
 import { BottomData } from "./BottomData";
-
+import LogoImage from "../image/ritajIcon.png"
 function Sidebar() {
   return (
     <div className="Sidebar">
       <div className="imageDiv">
+        <img src={LogoImage}></img>
       </div>
       <ul className="SidebarList">
         {SidebarData.map((val, key) => {
